@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Member details</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td><h3>First Name:-----</h3></td>
+			<td>${f_name}</td>
+		</tr>
+		<tr>
+			<td><h3>Last Name:------</h3></td>
+			<td>${l_name}</td>
+
+		</tr>
+		<tr>
+			<td><h3>Email:-----</h3></td>
+			<td>${em}</td>
+		</tr>
+	</table>
+</body>
+</html>
